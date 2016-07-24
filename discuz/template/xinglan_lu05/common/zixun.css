@@ -1,0 +1,46 @@
+/* CSS Document */
+.block{margin:0px !important;}
+body{ font-family:"宋体";}
+.ct2 .mn {width:690px;}
+.ct2 .sd {width:280px;}
+
+.bm2 .bm_h{background:url(../image/shzttbg.jpg) no-repeat; height:45px; line-height:35px; padding-left:40px;border:1px #75C5E6 solid;border-radius:0px; border-bottom:0px;}
+.bm2 .bm_h .xs2{ font-size:15px !important; color:#FFFFFF !important;letter-spacing: 10px;}
+
+
+.bm2 .bm_c{ border:1px #75C5E6 solid;border-top:0px; padding:5px;}
+.top_new img{width:120px; height:85px; float:left; margin-right:15px; padding:5px; border:1px #D2D2D2 solid;}
+.top_new{ padding:15px; border-bottom:1px #DCDCDC solid;}
+
+
+.top_new h2 a{font-size:18px; font-family:"黑体"; color:#2B65B7;}
+.new_body{font-size:14px; margin-top:5px;}
+.pg {margin-left:260px; float:none; margin-top:30px;}
+
+.bklb .block .xl1 ul li{float:left; margin-right:8px;  margin-left:8px;  background:#3DBAF1; padding:9px 10px ; border-radius:8px;}
+.bklb .block .xl1 ul li a{font-size:14px; color:#fff;}
+
+.jctj{border:1px #75C5E6 solid !important; margin-top:10px !important;}
+.jctj .title{height:38px; line-height:38px; background:url(../image/lttbg.jpg) repeat-x ;}
+.jctj .titletext{font-size:15px; font-family:"黑体"; color:#333333;}
+.jctj .subtitle{font-size:12px; font-family:"宋体"; color:#00A8F1; font-weight:normal;}
+.jctj .xld .m {margin:0px 10px 0 0;}
+.jctj dl{margin-top:15px; padding-bottom:10px; border-bottom:#9E9E9E 1px dashed; font-size:14px;}
+.jctj .dxb_bc{margin:5px 10px;}
+.jctj dl.end{border-bottom:0px;}
+
+
+.xwtop{border:1px #75C5E6 solid !important;margin-top:10px !important; margin-bottom:10px !important;}
+.xwtop .title{height:38px; line-height:38px; background:url(../image/lttbg.jpg) repeat-x ;}
+.xwtop .titletext{font-size:15px; font-family:"黑体"; color:#333333;}
+.xwtop .dxb_bc{padding:5px 10px;}
+.xwtop a{font-size:14px; margin-left:10px;}
+#rbg{background:url(../image/no1.jpg) no-repeat 0 center;}
+.number{ font-size:24px; font-weight:bolder;  color:#FFFFFF; font-family:"黑体"; margin:8px; padding-top:8px;}
+.xwtop .xl1 ul li {background:url(../image/no4.jpg) no-repeat 0 center; height:31px; line-height:27px; padding:3px 0; border-bottom:1px #b5b5b5 dashed;}
+.xwtop .xl1 ul li.end{border-bottom:0px;}
+
+
+.bottombg {
+background: url(../image/bottombg.jpg) repeat-x bottom;
+}

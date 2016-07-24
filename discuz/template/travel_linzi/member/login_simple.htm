@@ -1,0 +1,58 @@
+<!--{if $_G['uid']}-->
+<a onclick="return false;" href="#useravatar" hidefocus="true" class="logintip"></a>
+<div class="avatar_info" id="useravatar">
+<div class="uavatar"><a href="home.php?mod=space&uid=$_G[uid]"><!--{avatar($_G[uid],small)}--></a></div>
+<div class="uname"><a href="home.php?mod=space&uid=$_G[uid]" onmouseover="showMenu(this.id);" id="usersetup" class="username showmenu" target="_blank" title="{lang visit_my_space}">{$_G[member][username]}</a><a href="member.php?mod=logging&action=logout&formhash={FORMHASH}" class="ulogout">[{lang logout}]</a></div>
+<div class="ulevel">等级：<a href="home.php?mod=spacecp&ac=usergroup"{if $upgradecredit !== 'false'} id="g_upmine" class="xi2" onMouseOver="delayShow(this, showUpgradeinfo)"{/if}>$_G[group][grouptitle]</a></div>
+</div>
+<div class="umymenu">
+<a href="forum.php?mod=guide&view=my">帖子</a>
+<a href="home.php?mod=space&do=pm">私信<!--{if $_G[member][newpm]}--><strong>{$_G[member][newpm]}</strong><!--{/if}--></a>
+<a href="home.php?mod=space&do=notice">提醒<!--{if $_G[member][newprompt]}--><strong>$_G[member][newprompt]</strong><!--{/if}--></a>
+<a href="home.php?mod=task">任务</a>
+</div>
+<div class="ufastlink"><a href="home.php?mod=space&uid=$_G[uid]" class="ubtn_center">进入个人中心</a><a href="forum.php?mod=misc&action=nav" onclick="showWindow('nav', this.href, 'get', 0);" class="ubtn_fastpost">快速发贴</a></div>
+<!--{elseif !$_G[connectguest]}-->
+<script type="text/javascript" src="{$_G[setting][jspath]}logging.js?{VERHASH}"></script>
+<form method="post" autocomplete="off" id="lsform" action="member.php?mod=logging&action=login&loginsubmit=yes&infloat=yes&lssubmit=yes" onsubmit="{if $_G['setting']['pwdsafety']}pwmd5('ls_password');{/if}return lsSubmit();">
+<span id="return_ls" style="display:none"></span>
+<div class="row">
+<label for="savepwd" id="lbl_autologin"><input type="checkbox" value="2592000" name="cookietime" id="savepwd">自动登录</label>
+<label id="lbl_reg"><a href="member.php?mod={$_G[setting][regname]}">注册成为会员<span class="logintip"></span></a></label>
+</div>
+<div class="row">
+<span onclick="document.getElementById('username').focus();" class="hint">帐号:</span>
+<input type="text" class="input username" name="username" id="ls_username" autocomplete="off" tabindex="901" >
+</div>
+<div class="row">
+<span onclick="document.getElementById('password').focus();" class="hint">密码:</span>
+<input type="password" class="input password" name="password" id="ls_password" tabindex="902" >
+<button type="submit" class="submit">登录社区</button>
+</div>
+<div class="row" id="login_asset">
+<label id="lbl_forget"><a href="member.php?mod=logging&action=login&viewlostpw=1">找回密码</a></label>
+<label id="lbl_sina"><a href="plugin.php?id=sina_login:index&operation=init"><i></i>微博登录</a></label>
+<label id="lbl_qq"><a href="$_G[connect][login_url]&statfrom=login_simple"><i></i>QQ登录</a></label>
+</div>
+<input type="hidden" name="quickforward" value="yes" />
+<input type="hidden" name="handlekey" value="ls" />
+</form>
+<script type="text/ecmascript">document.getElementById('ls_username').focus();</script>
+<!--{if $_G['setting']['pwdsafety']}-->
+<script type="text/javascript" src="{$_G['setting']['jspath']}md5.js?{VERHASH}" reload="1"></script>
+<!--{/if}-->
+<!--{else}-->
+<a onclick="return false;" href="#useravatar" hidefocus="true" class="logintip"></a>
+<div class="avatar_info" id="useravatar">
+<div class="uavatar"><!--{avatar(0,small)}--></div>
+<div class="uname"><a href="javascript:;" class="username">{echo cutstr($_G[member][username],10)}</a><a href="member.php?mod=logging&action=logout&formhash={FORMHASH}" class="ulogout">[{lang logout}]</a></div>
+<div class="ulevel">等级：$_G[group][grouptitle]</div>
+</div>
+<div class="umymenu">
+<a href="forum.php?mod=guide&view=my">帖子</a>
+<a href="home.php?mod=space&do=pm">私信<!--{if $_G[member][newpm]}--><strong>{$_G[member][newpm]}</strong><!--{/if}--></a>
+<a href="home.php?mod=space&do=notice">提醒<!--{if $_G[member][newprompt]}--><strong>$_G[member][newprompt]</strong><!--{/if}--></a>
+<a href="home.php?mod=task">任务</a>
+</div>
+<div class="ufastlink"><a href="member.php?mod=connect&ac=bind" class="ubtn_center" rel="nofollow">绑定已有帐号</a><a href="member.php?mod=connect" class="ubtn_fastpost" rel="nofollow">完善信息</a></div>
+<!--{/if}-->

@@ -1,0 +1,47 @@
+/* CSS Document */
+body{ font-family:"ËÎÌו";}
+.forumrefresh {padding-right: 65px;}
+.pg_forumdisplay #newspecial { margin-top:0px;float: left;}
+.bm, .ntc_l, .pn {border-radius: 0px;}
+
+.bm {border: 1px solid #75C5E6;}
+.tl .tf a {border-radius: 0px;}
+.tl .th {padding: 4px 15px;background: #F7F7F7;}
+.tl .xst, .newthread .new em, .newthread .new em a {font-size: 14px !important;}
+.xs2 {font-size: 16px !important;}
+#pgt .pg, #pgt .pgb {margin-top:0px;}
+.bm_h h2{font-size:14px;}
+.bm_h {background: #F2F2F2;}
+.pbm{padding-top:10px; padding-left:20px; border:solid 1px #75C5E6; border-bottom:0px;}
+.mbm {margin-bottom: 0px !important;  }
+.bbs {border-bottom: solid 1px #75C5E6 !important;}
+.pl {margin-top:0px; border:solid 1px #75C5E6; }
+.pgb { padding-right:20px;}
+.pls {width: 180px; background:#DEF3FF;}
+.plc {border-radius: 0px; background:#fff;}
+.po {
+visibility:visible;
+}
+#f_pst{margin-top:10px;}
+.pls .avatar img, .bui, .bui .m img{border-radius:0px; padding:3px; border:#fff solid 3px; margin-left:22px;;}
+.pls p, .pls .pil, .pls .o {margin: 5px 10px 5px 20px;}
+.cp_pls {
+text-align:left;
+}
+
+.pls .avatar, #f_pst .avatar {
+margin:10px 13px 0 17px;
+}
+
+.bottombg {
+background: url(../image/bottombg.jpg) repeat-x bottom;
+}
+
+
+
+
+
+
+
+
+

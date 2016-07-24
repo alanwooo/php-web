@@ -1,0 +1,94 @@
+/* CSS Document */
+.block{margin:0px !important;}
+body{ font-family:"ËÎÌו";}
+.caa{border:0px;}
+.caa .frame-1-1-l{width:500px;}
+.caa .frame-1-1-r{ width:475px;}
+
+
+.caa .slideshow span.title{ 
+      position: absolute; 
+	  bottom: 0; 
+	  left: 0; 
+	  margin-bottom: 0; 
+	  width:497px; 
+	  height: 50px;
+	   line-height: 50px; 
+	   font-size: 20px; font-family:"ËÎÌו";
+	   text-indent: 10px; 
+	   }
+
+.hdp .slidebar{
+     position:relative; float:right;
+	 bottom:30px; 
+	 right: 10px;
+	 }
+.hdp .slidebar span{
+    float:left;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	cursor: pointer;
+	background:#fff;
+	border-radius:7px;
+	margin-right: 10px;
+}
+.hdp .slidebar span.on{
+	background:#0099cc;
+	border-radius:7px;
+	width: 14px;
+	height: 14px;
+}
+.frame, .frame-tab{border:0px;}
+.frame-tab .tb{padding-left:0px; border:solid 1px #B8DFF6;background:#EDF8FF; border-right: 0px;line-height:30px;_line-height:29px;}
+.frame-tab .tb li{width:95.8px;+width:95.9px;_width:auto; background:#EDF8FF;margin-left: -1px;} 
+.frame-tab .tb-c{padding:0px 5px 0 0 ;}
+.cbb .xl1 li {padding:4px 0px; font-size:14px;}
+.cbb .xl1 li em a{color:#FFA63C;}
+.cbb .dxb_bc{padding:6px 0px;}
+.frame-tab .tb .a a {background:url(../image/tbbg.jpg) no-repeat ;}
+.tb a{border-color:#B8DFF6;}
+
+
+.chart em{color:#F7464F;}
+.xi2a{color:#F7464F;}
+.fl .bm{border:1px solid #75C5E6;border-radius:0px;}
+ .bm{border:1px solid #75C5E6;border-radius:0px;}
+.bm_h{border-radius:0px; background:url(../image/shzttbg.jpg) no-repeat !important; height:42px; line-height:35px; }
+.fl .bm_h a {color:#fff; font-size:15px !important;padding-left:10px;}
+
+.bm_ha .o img {
+float: right;
+margin-top: 8px;
+cursor: pointer;
+}
+.bm_ha { height:40px; line-height:40px; font-size:14px;
+padding-left: 20px;
+border-bottom: 1px solid #C2D5E3;
+border-top-color: #F4F7FD;
+border-left: 1px solid #EBF1FC;
+border-right: 1px solid #EBF1FC;
+background: #EBF1FC;
+box-shadow: 0 1px 0 #EBF1FC;border-radius:0px;
+}
+#ft {border-top:0px;}
+.bottombg{background:url(../image/bottombg.jpg) repeat-x bottom;}
+
+#ddbb{float:right; margin-top:65px; font-size:14px; color:#666666;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

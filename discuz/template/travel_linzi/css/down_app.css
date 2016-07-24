@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/*app下载页面*/
+.AppIndex { width: auto; margin-top: 0; }
+.AppIndex  {  }
+.AppIndex .banner { margin: 0 auto; background: #000; position: relative;}
+.AppIndex .banner .view { height: 345px; position: relative; overflow: hidden; } 
+.AppIndex .banner .view li{ text-align: center; }
+.AppIndex .banner .view li .image {  }
+.AppIndex .banner .BgBar { position: absolute; width: 100%; height: 40px; background: #000; opacity: 0.5; bottom:0; }
+.AppIndex .banner .control { position: absolute; width: 100%; bottom:5px; text-align: center; }
+.AppIndex .banner .control li { width: 20px; height: 20px; display: inline;}
+.AppIndex .banner .control li a {  width: 20px; height: 20px; display: inline-block; overflow: hidden; background: url(../app_img/index_icon.png) no-repeat 0 0; font-size: 0.2px; line-height: 10000;}
+.AppIndex .banner .control li a:hover { text-decoration: none;}
+.AppIndex .banner .control li.current a,.AppIndex .banner .control li a:hover { background: url(../app_img/index_icon.png) no-repeat 0 -20px;}
+
+.AppIndex .ItemBox { width: 996px; margin: 50px auto 25px; }
+.AppIndex .ItemBox .Link { display: block; width: 426px; padding: 40px 0; border: 1px solid #dae6ec; background: #f2f8fb; box-shadow: 2px 2px 2px #efefef; border-radius: 2px; overflow: hidden; line-height: 24px; }
+.AppIndex .ItemBox .Link:hover { background: #f9fdff; text-decoration: none; }
+.AppIndex .ItemBox .Link img { float: left; padding: 0 24px 0 55px; }
+.AppIndex .ItemBox .Link strong { display: block; margin-bottom: 7px; font-family: 'microsoft yahei',sans-serif; font-size: 24px; color: #666; font-weight: normal; }
+.AppIndex .ItemBox .Link span { display: block; color: #9c9c9c; font-size: 14px; padding-right: 40px; }
+.AppIndex .ItemBox .RLink { position: absolute; left: 65px; bottom: 20px; color: #23729e; font-size: 14px; }
+.AppIndex .ItemBox .Activity { float: left; margin-right: 46px; position: relative; zoom: 1; }
+.AppIndex .ItemBox .Sns { float: left; position: relative; zoom: 1; }
+.AppIndex .ItemBox .Sns i { position: absolute; top: -3px; left: -3px; width: 68px; height: 68px; background: url(../app_img//app_new.gif) no-repeat; }
+
+.AppIndex .Extra { width: 996px; margin: 0 auto; padding-bottom: 80px; color: #9c9c9c; font-size: 14px; }
+
+/*大图*/
+.AppBigImg { margin-bottom: 38px; }
+.AppBigImg .Left { float: left; position: relative; zoom: 1; }
+.AppBigImg .Left img {  }
+.AppBigImg .Left .Link { position: absolute; top: 232px; left: 410px; width: 169px; height: 53px; background: url(../app_img/app_sprite1.png) 0 0 no-repeat; }
+.AppBigImg .Left .Link1 { background-position: 0 -126px; }
+.AppBigImg .Left .Link1_new { background-image: url(../app_img/app_sprite.png); }
+.AppBigImg .Left .Link1:hover { background-position: 0 -189px; }
+.AppBigImg .Left .Link2 { left: 620px; background-position: 0 0; }
+.AppBigImg .Left .Link2:hover { background-position: 0 -63px; }
+.AppBigImg .Right { float: right; }
+.AppBigImg .Right .Link { display: block; width: 134px; height: 81px; line-height: 24px; margin-bottom: 22px; padding-top: 11px; text-align: center; }
+.AppBigImg .Right .Link.last { margin-bottom: 0;}
+.AppBigImg .Right .Link:hover { text-decoration: none; background: url(../app_img/app_sprite.png) 0 -252px no-repeat; }
+.AppBigImg .Right .Link_curr { background: url(../app_img/app_sprite.png) 0 -352px no-repeat; }
+.AppBigImg .Right .Link_curr:hover { background: url(../app_img/app_sprite.png) 0 -352px no-repeat; }
+.AppBigImg .Right a img { display: block; position: relative; left: 48px; }
+.AppBigImg .Right a span { padding-left: 11px; font-family: 'microsoft yahei',sans-serif; font-size: 16px; color: #666; }
+/*介绍*/
+.AppIntro { width: 846px; border: 1px solid #dae6ec; }
+.AppIntro .Left { float: left; }
+.AppIntro .Left dl.Img { width: 490px; padding: 41px 0 30px 151px; background: url(../app_img/app_activity_icon.png) 53px 46px no-repeat; }
+.AppIntro .Left dl.Img_sns { background-image: url(../app_img/app_sns_icon.png); }
+.AppIntro .Left dl.Img_xcz { background-image: url(../app_img/app_xcz_icon.png); }
+.AppIntro .Left dl.Img dt { line-height: 24px; margin-bottom: 10px; font-family: 'microsoft yahei',sans-serif; font-size: 24px; color: #666; }
+.AppIntro .Left dl.Img dd { color: #9c9c9c; font-size: 14px; line-height: 24px; }
+.AppIntro .Right { float: right; padding: 15px 30px 0 0; text-align: center; line-height: 30px; }
+.AppIntro .Right p img { width: 99px; height: 99px; }
+
+/*功能介绍*/
+.AppContent { padding-bottom: 50px; }
+.AppContent dl { margin-top: 70px; padding: 0 0 0 156px; zoom: 1; }
+.AppContent dl dt { margin-bottom: 10px; line-height: 24px; font-family: 'microsoft yahei',sans-serif; font-size: 20px; color: #4c4c4c; }
+.AppContent dl dd { line-height: 24px; font-family: 'microsoft yahei',sans-serif; font-size: 16px; color: #979797; }
+.AppContent dl.Check { background: url(../app_img/app_check.gif) 75px 0 no-repeat; }
+.AppContent dl.My { background: url(../app_img/app_my.gif) 75px 0 no-repeat; }
+.AppContent dl.Message { background: url(../images/appdownload/app_message.gif) 75px 0 no-repeat; }
+.AppContent dl.Activity { background: url(../app_img/app_activity.gif) 75px 0 no-repeat; }
+.AppContent dl.Desktop { background: url(../app_img/app_desktop.gif) 75px 0 no-repeat; }
+.AppContent dl.Share { background: url(../app_img/app_share.gif) 75px 0 no-repeat; }
+.AppContent dl.Collect { background: url(../app_img/app_collect.gif) 75px 0 no-repeat; }
+.AppContent dl.Mountains { background: url(../app_img/app_mountains.gif) 75px 0 no-repeat; }
+.AppContent dl.Safety { background: url(../app_img/app_safety.gif) 75px 0 no-repeat; }
+.AppContent dl.Cycling { background: url(../app_img/app_cycling.gif) 75px 0 no-repeat; }

@@ -1,0 +1,19 @@
+
+/*登录和注册用*/
+.fwin .m_c {background:#FFF;}
+.m_top { background:url(top_bar_bg.png) repeat-x; height:45px; position:relative; padding-top:5px;}
+.m_c {position:relative;background:transparent;}
+.mm_cc {width:670px;margin:70px auto;}
+.m_c_t {background:#FFF;border-radius:5px;box-shadow:0 0 5px rgba(0, 0, 0, 0.1);padding:30px;margin-bottom:0;}
+.m_title {padding-bottom:15px;border-bottom:1px dotted #CCC;}
+.er {border:1px solid #999 !important;}
+.p_chk {color: #FF6666;font-family: Tahoma,Helvetica,SimSun,sans-serif;position: absolute;width: 390px;z-index: 1;margin-top:-11px; *margin-top:-14px;line-height:22px; *line-height:24px; _line-height:22px;}
+.p_tip {background: none repeat scroll 0 0 #FFFFFF;color: #919191;font-style: normal;position: absolute;width: 300px;
+z-index: 2;margin-top:-11px;line-height:22px;}
+.m_b {position:relative;height:42px;width:610px;margin:0 auto;background:#666;border-radius:0 0 5px 5px;box-shadow:0 0 5px rgba(0, 0, 0, 0.1);
+color:#FFF;padding-left:20px;line-height:42px; _padding-top:8px}
+.m_b img {vertical-align:middle;}
+.m_b a { color:#FF9900; }
+.qa_title {background: url("qa.png") no-repeat scroll 0 0 transparent;display: block;float: left;height: 57px;margin: 0 10px 0 34px;width: 34px;}
+#emailmore_menu {margin-left:79px;}
+/*--copy right www.webfgoo.com  QQ:314250257--*/

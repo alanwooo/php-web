@@ -1,0 +1,803 @@
+/* CSS Document */
+
+a:hover { text-decoration: none}
+
+/* 门户首页右侧导航样式 */
+.news_right { float: left; width: 280px; height: 350px; padding: 0 0 25px 0; _padding: 0 0 18px 0; margin: 0}
+.news_right ul { float: left}
+.news_right ul li { float: left; border-bottom: 1px solid #FFFFFF; width: 280px; background: #F3F3F3}
+.news_right ul li.last { border-bottom: 1px solid #F3F3F3}
+.news_right ul li:hover { background: #F8F8F8}
+.news_right ul li a { color: #CACACA; float: left; padding: 0}
+.news_right ul li span { color: #000000; float: left;font-size: 15px;height: 69px;overflow: hidden;width: 70px; background: url(icon.png) no-repeat -999px -999px}
+.news_right ul li p { display: block; color: #626262;float: left;font-size: 16px;letter-spacing: 1px;line-height: 69px;overflow: hidden;padding-left: 10px;width: 200px;margin: 0}
+.news_right ul li p:hover, .news_right ul li:hover p { color: #51ADED}
+.news_right ul li .icon1 { background-position: 15px -324px}
+.news_right ul li .icon2 { background-position: 15px 17px}
+.news_right ul li .icon3 { background-position: 15px -250px}
+.news_right ul li .icon4 { background-position: 15px -118px}
+.news_right ul li .icon5 { background-position: 15px -184px}
+
+/* 门户首页排行榜样式 */
+.hot_list { padding: 0 0 20px 0}
+.hot_list ul li {
+    overflow: hidden;
+    width: 275px;
+}
+.hot_list .t {
+    padding: 3px 0px 0px;
+    cursor: pointer;
+    overflow: hidden;
+    height: 38px;
+    line-height: 38px;
+    outline: 0 none;
+    font-size: 14px;
+}
+.hot_list .t a { color: #747F8C}
+.hot_list ul li:hover .t a, .hot_list .t a:hover { color: #70C4FF}
+.hot_list i {
+    background: url(icon1.png) no-repeat scroll -40px -20px transparent;
+    width: 20px;
+    height: 20px;
+    margin: 9px 10px 9px 2px;
+    display: inline-block;
+    color: #ACACAC;
+    text-align: center;
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+}
+.hot_list .top i {
+    background-position: -40px -50px;
+    color: #2393DF;
+}
+.hot_list p {
+    height: 60px;
+    padding: 0 15px 5px 15px;
+    border-bottom: 0;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-indent: 20px;
+    color: #8C8C8C;
+    display: none;
+}
+.hot_list .on p { display: block}
+.hot_list p span { color: #70C4FF}
+
+/* 门户首页关注我们样式 */
+.gzwm ul {
+    width: 100%;
+    border-bottom: 0;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+.gzwm li {
+    width: 52px;
+    margin: 0 16px 0 5px;
+    float: left;
+}
+.gzwm li a {
+    color: #747F8C;
+    width: 52px;
+    text-align: center;
+    padding-top: 60px;
+    float: left;
+}
+.gzwm .rss {
+    background: url(ico_04.png) no-repeat scroll 0% 0% transparent;
+}
+.gzwm .rss:hover {
+    color: #D6BF14;
+    background: url(ico_04_1.png) no-repeat scroll 0% 0% transparent;
+    text-decoration: none;
+}
+.gzwm .xlwb {
+    background: url(ico_05.png) no-repeat scroll 0% 0% transparent;
+}
+.gzwm .xlwb:hover {
+    color: #D6BF14;
+    background: url(ico_05_1.png) no-repeat scroll 0% 0% transparent;
+    text-decoration: none;
+}
+.gzwm .txwb {
+    background: url(ico_06.png) no-repeat scroll 0% 0% transparent;
+}
+.gzwm .txwb:hover {
+    color: #D6BF14;
+    background: url(ico_06_1.png) no-repeat scroll 0% 0% transparent;
+    text-decoration: none;
+}
+.gzwm .wx {
+    background: url(ico_07.png) no-repeat scroll 0% 0% transparent;
+}
+.gzwm .wx:hover {
+    color: #D6BF14;
+    background: url(ico_07_1.png) no-repeat scroll 0% 0% transparent;
+    text-decoration: none;
+}
+
+/* 门户首页幻灯片样式 */
+.focus_box { float: left; width: 760px; height: 360px; overflow: hidden; position: relative}
+.focus_box img { display: block; float: left; width: 760px; height: 360px}
+.focus_box img:hover { opacity: 1 !important}
+.focus_box .bd {}
+.focus_box .bd li { position: relative}
+.focus_box .bd .t_box { width: 685px; padding: 12px 50px 10px 25px; color: #888888; position: absolute; left: 0; bottom: 0; z-index: 100; opacity: 0.8; border-radius: 0}
+.focus_box .bd .t_box h2 { height: 20px; overflow: hidden; line-height: 20px; margin: 0 0 5px 0}
+.focus_box .bd .t_box h2 a { font-size: 18px; color: #FFFFFF; font-weight: 400}
+.focus_box .bd .t_box h2 a:hover { text-decoration: none}
+.focus_box img { display: block}
+.focus_box .hd { position: absolute; right: 60px; bottom: 15px; height: 12px; padding: 0 9px; overflow: hidden; z-index: 120; background: none}
+.caption_info p a:hover { color: #FFFFFF; text-decoration: none}
+.focus_box .hd li { float: left; width: 12px; height: 12px; margin: 0 0 0 5px; display: block; background: url(slide.png) no-repeat -1px -3px; cursor: pointer; text-indent: -999em}
+.focus_box .hd li.on { background-position: -25px -3px}
+
+/* 门户首页Gallery图集样式 */
+.slide_box { float: left; width: 580px; height: 300px; overflow: hidden; position: relative}
+.slide_box .prev { position: absolute; left: 0; top: 120px; width: 30px; height: 50px; cursor: pointer; background: url(prev3.png) no-repeat 0 0; _background: none}
+.slide_box .next { position: absolute; right: 0; top: 120px; width: 30px; height: 50px; cursor: pointer; background: url(next3.png) no-repeat 0 0; _background: none}
+.slide_box .prev:hover, .slide_box .next:hover { opacity: 0.8}
+.slide_box img { display: block; float: left; width: 580px; height: 300px}
+.slide_box img:hover { opacity: 1 !important}
+.slide_box .bd {}
+.slide_box .bd li { position: relative}
+.slide_box .bd .t_box { width: auto; _width: 300px; padding: 10px 20px; color: #888888; position: absolute; left: 0; bottom: 0; z-index: 100; opacity: 0.8; border-radius: 0}
+.slide_box .bd .t_box h2 { height: 20px; overflow: hidden; line-height: 20px; margin: 0}
+.slide_box .bd .t_box h2 a { font-size: 14px; color: #FFFFFF; font-weight: 400}
+.slide_box .bd .t_box h2 a:hover { text-decoration: none}
+.slide_box img { display: block}
+
+.image-overlay { position: absolute; width: 460px; height: 300px; top: 0; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; transition: all 0.2s ease;background-image: -webkit-linear-gradient(-90deg, rgba(0,122,255,0.3) 0%, #000 100%);background-image: -moz-linear-gradient(-90deg, rgba(0,122,255,0.3) 0%, #000 100%);background-image: linear,-90deg,rgba(0,122,255,0.3) 0%,#000 100%}
+.image-overlay:hover { opacity: 0.3}
+
+.image-overlay2 { position: absolute; width: 160px; height: 150px; top: 0; overflow: hidden; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; transition: all 0.2s ease;background-image: -webkit-linear-gradient(-90deg, rgba(0,122,255,0.3) 0%, #000 100%);background-image: -moz-linear-gradient(-90deg, rgba(0,122,255,0.3) 0%, #000 100%);background-image: linear,-90deg,rgba(0,122,255,0.3) 0%,#000 100%}
+.image-overlay2:hover { opacity: 0.3}
+
+.gdl-slider-info { padding: 12px 0}
+.gdl-slider-info, .gdl-slider-info a { color: #F3F3F3}
+.gdl-slider-info a:hover { color: #A6A6A6; text-decoration: none}
+.blog-date-wrapper { float: left; padding-left: 18px; margin-right: 7px; font-size: 12px; background: url(icons.png) no-repeat 0 -53px}
+.blog-author { float: left; padding-left: 18px; margin-right: 7px; font-size: 12px; background: url(icons.png) no-repeat 0 -113px}
+.blog-comment { float: left; padding-left: 18px; margin-right: 7px; font-size: 12px; background: url(icons.png) no-repeat 0 -3px}
+.small-button, #contactform .small-button, body input#submit, .wpcf7 input.wpcf7-submit { font-size: 12px;background-image: url(small-button.png);background-position: right top; color: #FFFFFF;text-decoration: none;line-height: 1;cursor: pointer;padding: 12px 48px 12px 15px; font-family: "Microsoft Yahei"; font-weight: bold; display: inline-block; background-color: #DECD43}
+
+/* 门户首页Gallery样式 */
+.gallery { width: 1105px}
+.gallery li { float: left; width: 315px; padding: 15px 13px; margin: 0 25px 0 0; border: 1px solid #E5E5E5; background: #FFFFFF}
+.gallery li h3 { width: 315px; height: 33px; line-height: 33px; font-size: 14px}
+.gallery .infos { width: 315px}
+.gallery .infos .view { float: left; padding-left: 20px; margin: 0 20px 0 0; background: url(ico_16.png) no-repeat left 3px}
+.gallery .infos .reply { float: left; padding-left: 20px; background: url(ico_14.png) no-repeat left 3px}
+
+
+.image-border-font { display: block; position: absolute; top: 0; left: 0; z-index: 80; width: 100%; height: 100%}
+
+
+/* 门户首页样式 */
+.part1 { width: 1080px; height: 360px; border: 0; padding: 0; margin: 0; background: none}
+.part1-l { float: left; width: 760px; overflow: hidden; border: 0; padding: 0; margin: 0; background: none}
+.part1-r { float: right; width: 280px; height: 360px; border: 0; padding: 0; margin: 0; box-shadow: 1px 1px 3px rgba(200, 200, 200, 0.2); background: #FFFFFF}
+
+
+.part2 { width: 1080px; overflow: hidden; border: 0; padding: 0; margin: 25px 0 0 0; background: none}
+.part2-l { float: left; width: 760px; overflow: hidden; border: 0; padding: 0; margin: 0; background: none}
+.part2-r { float: right; width: 280px; overflow: hidden; border: 0; padding: 0; margin: 0; overflow: hidden}
+
+.part3 { width: 1080px; height: auto; overflow: hidden; border: 0; padding: 0; margin: 0 0 15px 0; background: none}
+
+.part5 { width: 1080px; overflow: hidden; border: 0; padding: 0; margin: 0; background: none}
+.part5-l { float: left; width: 580px; overflow: hidden; border: 0; padding: 0; margin: 0; background: none}
+.part5-r { float: right; width: 499px; overflow: hidden; border: 0; padding: 0; margin: 0; overflow: hidden}
+
+.part6 { width: 1080px; overflow: hidden; border: 0; padding: 0; margin: 25px 0 0 0; background: none}
+.part6-l { float: left; width: 760px; overflow: hidden; border: 0; padding: 0; margin: 0; background: none}
+.part6-r { float: right; width: 280px; overflow: hidden; border: 0; padding: 0; margin: 0; overflow: hidden}
+
+.ad-center { width: 1080px; margin: 0 auto}
+.ad-center-l { float: left; width: 760px; overflow: hidden; border: 0; padding: 0; margin: 0; background: none}
+.ad-center-r { float: right; width: 280px; overflow: hidden; border: 0; padding: 0; margin: 0; overflow: hidden}
+
+.headline_news { float: left; position: relative; width: 120px; height: 95px; padding: 35px 20px 20px 20px; margin: 0; overflow: hidden}
+.headline_news a:hover { text-decoration: none}
+.topic-post-small { width: 120px; height: 95px; display: table; text-align: center; overflow: hidden}
+.topic-title { color: #FFFFFF; position: relative; width: 140px; line-height: 1; margin: 0; display: table-cell; overflow: hidden}
+.topic-post-small h3 { width: 120px;font-size: 14px;line-height: 1.6;text-align: left;margin-bottom: 10px;font-weight: bold; cursor: pointer; overflow: hidden}
+.topic-post-small h3:hover { text-decoration: none}
+
+/* 门户首页最新动态样式 */
+.portal_tits {
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 1px solid #E8E8E8;
+    position: relative;
+    margin-bottom: 15px;
+}
+.portal_tits h2 {
+    font-size: 16px;
+    padding-left: 30px;
+    float: left;
+    color: #333333;
+	background: url(left_bar.png) no-repeat 16px 14px
+}
+.news_line .next {
+    position: absolute;
+    right: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    padding-left: 25px;
+    background: url(icon1.png) no-repeat -384px 15px;
+}
+.news_line .bd2 {
+	height: 280px;
+    padding: 5px 20px;
+	overflow: hidden
+}
+.news_line li {
+	height: 72px !important;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+	_padding-bottom: 10px;
+    border-bottom: 1px solid #F2F2F2;
+}
+.news_line .pic-link {
+    width: 72px;
+    height: 72px;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.news_line .pic-link img {
+    width: 72px;
+    height: 72px;
+}
+.news_line .desc-box {
+    font-size: 14px;
+    color: #999999;
+    line-height: 26px;
+}
+.news_line .desc-box h3 {
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: -5px;
+    color: #555555;
+    height: 48px;
+    overflow: hidden;
+    line-height: 22px;
+}
+.news_line .desc-box h3 a { color: #555555}
+.news_line .next:hover { color: #2393DF; text-decoration: none; background-position: -384px -35px}
+.meta {
+    margin-top: 8px;
+}
+.meta span {
+    color: #AFAFAF;
+    margin-right: 13px;
+}
+.meta .meta-date {
+	font-size: 13px;
+    padding-left: 26px;
+    background: url(dates.jpg) no-repeat 0 0;
+}
+
+/* taber */
+.taber { margin: 0 0 20px 0}
+.taber .tab-title { height: 30px; line-height: 30px; background: none}
+.taber .tb { width: 280px; padding-left: 0; height: 30px; line-height: 30px; background: url(title-bg.png) repeat 0 0}
+.taber .tb a { padding: 0 15px; font-size: 14px; text-align: center; border: 0; color: #666666; height: 30px; line-height: 30px; margin-right: 0; border-right: 3px solid #FFFFFF; background: none !important}
+.taber .tb a:hover { color: #333333; background: #FFFFFF}
+.taber .tb .a a { color: #FFFFFF ; line-height: 30px; font-weight: 400; background: #333333 !important}
+.taber .tb-c { padding: 0; margin: 10px 0; background: none}
+
+
+/* 门户首页右侧资讯列表 */
+.right_list {}
+.right_box { float: left; width: 60px; height: 60px; margin-right: 15px; overflow: hidden}
+.right_list li { float: left; width: 100%; height: 60px; margin: 0; padding: 15px 0; border-bottom: 1px dotted #E6E6E6}
+.right_list img { display: block; width: 60px; height: 60px; transition: all 0.5s ease 0s; background: url(loading.gif) no-repeat scroll center center transparent}
+
+.ie6 .right_box { overflow: visible}
+.ie7 .right_box { overflow: visible}
+.ie8 .right_box { overflow: visible}
+
+.ie6 .right_list img { border: 1px solid #D7D7D7}
+.ie7 .right_list img { border: 1px solid #D7D7D7}
+.ie8 .right_list img { border: 1px solid #D7D7D7}
+
+.right_box a:hover img { transition: all 0.5s ease 0s; transform: scale(1.2); opacity: 0.9}
+.right_list .t { line-height: 18px; margin-bottom: 5px; margin-right: 10px; overflow: hidden}
+.right_list .t a { font-size: 13px; font-weight: 100 ;color: #666666}
+.right_list .t a:hover { color: #51ADED}
+.right_list .v { float: left; height: 20px; line-height: 20px; padding-left: 23px; margin-right: 15px; font-size: 10px; color: #999999; background: url(views.png) no-repeat left 1px}
+.right_list .c { float: left; width: 100px; height: 20px; padding-left: 23px; line-height: 20px; font-size: 10px; font-weight: 100; text-align: justify; color: #9C9C9C; overflow: hidden; background: url(date.png) no-repeat left 2px}
+
+
+/* 门户首页顶部右侧信息 */
+.web_info {
+    padding: 25px 20px;
+    margin-bottom: 13px;
+    background: none repeat scroll 0% 0% #F7F7F7;
+    color: #A0A0A0;
+}
+.web_info li {
+    height: 64px;
+    line-height: 18px;
+    padding-left: 58px;
+    margin-bottom: 21px;
+    border-bottom: 1px solid #ECECEC;
+    position: relative;
+}
+.web_info li i {
+    width: 50px;
+    height: 45px;
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+.web_info li i.info_member { background: url(member.png) no-repeat left top}
+.web_info .hd_t {
+    color: #666666;
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 10px;
+}
+.web_info .hd_b {
+    color: #A0A0A0;
+    line-height: 18px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.web_info em {
+    color: #F47400;
+    font-family: Georgia;
+    text-decoration: none;
+    font-size: 28px;
+    line-height: 28px;
+    margin-right: 9px;
+}
+.web_info li i.info_forum { background: url(infox.png) no-repeat 5px -1px}
+.post_btns {
+    margin-top: 10px;
+    width: 230px;
+    height: 50px;
+}
+.post_btns a {
+    width: 230px;
+    height: 50px;
+	line-height: 45px;
+    display: block;
+	border-radius: 5px;
+	background: url(post.png) no-repeat 0 0
+}
+.post_btns b {
+    color: #F6F6F6;
+    font-size: 18px;
+    height: 50px;
+	font-weight: 600;
+    text-align: center;
+    line-height: 45px;
+	padding: 0 0 0 65px;
+    text-shadow: 0 1px 0 #22939C;
+}
+
+/* 门户首页第一资讯 */
+.first_news li { position: relative; width: 680px; height: 220px; margin-bottom: 30px; overflow: hidden}
+.photoboxs { float: left; width: 325px; height: 220px; overflow: hidden; margin-right: 20px}
+.first_news img { display: block; float: left; width: 325px; height: 220px; transition: all 0.5s ease 0s; background: url(loading.gif) no-repeat scroll center center transparent}
+.photoboxs a:hover img { transition: all 0.5s ease 0s; transform: scale(1.2); opacity: 0.9}
+.first_news .t { width: 325px; height: 26px; line-height: 26px; margin-bottom: 13px; overflow: hidden}
+.first_news .t a { font-size: 20px; font-weight: 100; color: #3D3D3D}
+.first_news .t a:hover { color: #333333}
+.first_news .c { height: 136px; line-height: 26px; margin: 15px 0 10px 0; font-size: 13px; font-weight: 100; text-align: justify; color: #888888}
+.covers { height: 30px; line-height: 30px; color: #9C9C9C}
+.covers em { padding-left: 28px}
+.covers .date { float: left;background: url(datex.png) no-repeat scroll 0 3px transparent}
+.covers .replys { float: left;margin-left: 20px;background: url(replysx.png) no-repeat scroll 0 7px transparent}
+.covers .category { float: left;margin-left: 20px;background: url(categoryx.png) no-repeat scroll 0 6px transparent}
+.covers .more { float: left;margin-left: 20px;background: url(morex.png) no-repeat scroll 0 4px transparent}
+
+/* 门户首页列表样式 */
+.news_list li { float: left; width: 760px; overflow: hidden; padding: 22px 0; _padding: 22px 0 28px 0; margin: 0; border-bottom: 1px dotted #DDDDDD; position: relative}
+.ie7 .news_list li { padding: 22px 0 28px 0}
+.photobox { float: left; width: 245px; height: 155px; margin-right: 20px; overflow: hidden}
+.news_list img { display: block; float: left; width: 245px; height: 155px; transition: all 0.5s ease 0s;background: url(loading.gif) no-repeat scroll center center transparent}
+
+.ie6 .photobox { overflow: visible}
+.ie7 .photobox { overflow: visible}
+.ie8 .photobox { overflow: visible}
+
+.top_time { float: left; width: 270px; height: 25px; margin: 0 0 10px 0}
+.top_time a { float: left; padding: 0 0 0 1px; font-size: 12px; font-weight: 600}
+.top_time .date { float: left; padding: 0 0 0 2px; color: #747F8C}
+.photobox a:hover img { opacity: 0.7}
+.news_list .t { float: left; width: 480px; height: auto; line-height: 32px; margin: 3px 0 10px 0; overflow: hidden}
+.news_list .c { float: left; width: 480px; height: 78px; line-height: 23px; overflow: hidden; margin: 0; font-size: 12px; font-weight: 400; color: #777777}
+.news_list .t a { font-size: 18px; font-weight: 400; color: #333333}
+.news_list .t a:hover { color: #51ADED}
+.news_list .cover { float: left; width: 200px; margin: 0; height: 25px; line-height: 25px; color: #9C9C9C}
+.news_list .cover em { padding-left: 20px; color: #747F8C}
+.news_list .cover em a { color: #747F8C}
+.news_list .cover .replys { float: right; margin-left: 20px; background: url(ico_14.png) no-repeat 0 6px}
+.news_list .cover .views { float: right; margin: 0 3px 0 15px; background: url(ico_16.png) no-repeat 0 6px}
+
+
+/* 通用标题样式 */
+.tit01 { position: relative; padding: 0; margin: 0; height: 40px; border-bottom: 1px solid #DDDDDD}
+.tit01 h3 { float: left; line-height: 26px; color: #333333; padding: 0; font-size: 18px; font-weight: 400; letter-spacing: 3px; display: inline-block; background: none}
+
+.tit02 { margin-bottom: 20px; padding-bottom: 0; border-bottom: 1px solid #E6E6E6; height: 40px}
+.tit02 h3 { line-height: 35px; color: #666666; padding: 0 0 5px 0; font-size: 16px; font-weight: 400; display: inline-block; background: none repeat 0 0 #FFFFFF; float: left; border-bottom: 1px solid #51ADED}
+
+.tit03 { padding: 8px 0 0 0; margin-bottom: 5px; border-top: 1px solid #D6D6D6; height: 40px}
+.tit03 h3 { float: left; line-height: 40px; color: #666666; padding: 0; font-size: 16px; font-weight: 400; display: inline-block; background: none repeat 0 0 #FFFFFF}
+.tit03 em { float: left; line-height: 40px; padding: 0 0 0 20px; margin: 0 0 0 10px; color: #51ADED; font-family: "宋体"; background: url(more.png) no-repeat left 13px}
+.tit03 span { float: left; line-height: 40px; padding: 0 0 0 25px}
+
+.tit05 { margin-bottom: 20px; padding-bottom: 0; border-bottom: 0; height: 38px; text-align: center; background: #222222}
+.tit05 h3 { line-height: 38px; color: #EEEEEE; padding:  0; font-size: 16px; font-weight: 400; display: inline-block; background: none; border-bottom: 0}
+
+.tabs { width: 280px; margin: 0 0 25px 0 !important; border: 0; overflow: hidden}
+.titx1 { display: block; height: 33px; line-height: 33px; margin: 0 0 10px 0; padding-bottom: 0; border: 0; border-bottom: 0; background: none}
+.hbody-r .bd-r { width: 240px; padding: 8px 0 0 5px}
+.hbody-r .hd-r ul { float: left}
+.hbody-r .hd-r li { float: left; width: 92px; text-align: center; height: 33px;line-height: 33px;font-size: 14px;font-weight: 400;padding: 0;margin: 0;border-right: 1px solid #E6EAED; border-top: 2px solid #EEEEEE; color: #747F8C; cursor: pointer; text-align: center; background: #F3F3F3}
+.hbody-r .hd-r li.on { color: #51ADED; border-bottom: 0; border-top: 2px solid #51ADED; background: #FFFFFF}
+.hbody-r .bd-r li { float: left; width: 250px; line-height: 23px; padding-left: 13px; margin: 0 0 8px 0; font-size: 14px; background: url(list.png) no-repeat left 9px}
+.hbody-r .bd-r li h3 { float: left; width: 100%; height: 25px; line-height: 25px; overflow: hidden}
+.hbody-r .bd-r li a { border: 0; font-size: 13px; color: #4C5D6F; font-weight: 400}
+.hbody-r .bd-r li a:hover { color: #51ADED; text-decoration: none}
+
+
+/* 幻灯片样式 */
+.list_box { margin-bottom: 15px}
+.list_focuss, .list_focuss li { width: 280px; height: 200px; position: relative}
+.list_focuss .bd { width: 280px; height: 200px; overflow: hidden}
+.list_focuss .shadow { _display: none; position: absolute;left: 0;bottom: 0;color: #FFFFFF;font-size: 15px;line-height: 26px;padding: 25px 15px 20px 15px;width: 250px; background: url(black3.png) no-repeat 0 0; _background: none}
+.list_focuss .bd img { width: 280px; height: 200px}
+.list_focuss .hd { position: absolute; left: 95px; bottom: 8px; width: 160px;height: 9px;overflow: hidden}
+.list_focuss .hd ul li { float: left;width: 9px;height: 9px;cursor: pointer;font-size: 0;line-height: 0;margin-right: 10px;background: url(point.png) no-repeat 0 0}
+.list_focuss .hd ul li.on { background: url(point_on.png) no-repeat 0 0}
+
+
+/* 热门资讯 */
+.hot_read ul { _height: 315px}
+.ie7 .hot_read ul { height: 305px}
+.hot_read li { float: left; width: 295px; height: 73px; overflow: hidden; padding-bottom: 15px; margin-bottom: 13px; border-bottom: 1px dashed #EEEEEE}
+.hot_read h3 { height: 25px; line-height: 25px; padding-bottom: 0; margin: 0 0 6px 0; overflow: hidden}
+.hot_read h3 a { color: #666666; font-size: 15px}
+.hot_read h3 a:hover { color: #51ADED}
+.hot_read .pic { float: left; width: 73px; margin-right: 12px}
+.hot_read p { height: 45px; line-height: 22px; color: #8C8C8C; text-align: justify; overflow: hidden}
+.hot_read p a { color: #51ADED}
+
+
+.mb30 { margin-bottom: 30px}
+
+
+/* 阅读排行 */
+.hbody .hd ul { float: right; margin: 10px 0 0 0}
+.hbody .hd li {
+    float: left;
+    text-align: center;
+    height: 15px;
+    line-height: 15px;
+	color: #555555;
+    font-size: 12px;
+    margin: 0;
+	padding: 0 11px;
+	border-right: 1px solid #666666;
+    cursor: pointer;
+	transition: all 0.3s ease 0s
+}
+.hbody .hd li.on { height: 15px; line-height: 15px; color: #000000; border-radius: 0; background: none}
+.date, .author {
+    margin-left: 5px;
+    display: block;
+    float: right;
+    font-size: 12px;
+    overflow: hidden;
+    text-align: right;
+    color: #999999;
+}
+
+.picimage span { float: left}
+.picont-picpre img { width: 50px; height: 50px; box-shadow: 1px 1px 1px #CCCCCC; border-radius: 2px}
+
+
+/* 门户首页阅读更多样式 */
+.more_info { width: 673px; height: 38px; line-height: 38px; margin: 0 0 15px 0; border: 1px solid #E9E9E9; text-align: center; background: #F6F6F6}
+.more_info:hover { background: #51ADED}
+.more_info a { display: block; width: 675px; height: 40px; line-height: 40px; color: #888888; font-size: 15px; font-family: Tahoma, Geneva, sans-serif}
+.more_info em { font-size: 13px}
+.more_info a:hover { color: #FFFFFF; text-decoration: none}
+
+/* 门户首页精彩活动样式 */
+.list_box3 { position: relative; width: 760px; height: 250px; margin-bottom: 0}
+.list_focuss3 .bd3 { width: 760px; height: 155px; overflow: hidden}
+.list_focuss3 li { position: relative; width: 760px; height: 155px}
+.list_focuss3 h2 { position: absolute; top: 0; left: 265px; width: 490px; height: 22px; line-height: 22px; padding: 0; overflow: hidden; font-size: 17px; text-align: left; background: none}
+.list_focuss3 h2 a { color: #333333; font-weight: 400}
+.list_focuss3 h2 a:hover { color: #51ADED}
+.list_focuss3 p { position: absolute; left: 265px; top: 35px; width: 490px; height: 95px; line-height: 22px; color: #666666; font-size: 12px; z-index: 60; text-align: left}
+.list_focuss3 span { position: absolute; left: 265px; top: 125px; width: 245px; height: 30px; line-height: 25px; z-index: 60; text-align: left}
+.list_focuss3 .events { position: absolute; right: 5px; bottom: 20px; width: 85px; height: 28px; line-height: 28px; padding: 0 0 0 12px; text-align: left; transition: all 0.5s ease 0s; background: #70C4FF}
+.list_focuss3 .events:hover { background: #51ADED}
+.list_focuss3 .events a { color: #FFFFFF; font-size: 14px}
+.list_focuss3 .events a:hover { text-decoration: none}
+.list_focuss3 .bd3 img { position: relative; width: 245px; height: 155px; z-index: 60}
+
+.list_focuss3 .hd3 { position: absolute; right: 0; bottom: -1px; width: 58px; height: 33px; margin: 10px auto 0 auto; overflow: hidden; z-index: 50}
+
+.list_focuss3 .hd3 .prev { width: 33px; height: 33px; background: url(point_z.png) no-repeat 0 0}
+.list_focuss3 .hd3 .prev:hover { background: url(1left.png) no-repeat 0 0}
+.list_focuss3 .hd3 ul { float: left; padding-top: 9px; overflow: hidden}
+.list_focuss3 .hd3 .next { width: 33px; height: 33px; background: url(point_r.png) no-repeat 0 0}
+.list_focuss3 .hd3 .next:hover { background: url(1right.png) no-repeat 0 0}
+.list_focuss3 .hd3 ul li, .list_focuss3 .hd3 ul li.on, .list_focuss3 .hd3 .next, .list_focuss3 .hd3 .prev { float: left; vertical-align: middle;overflow: hidden;display: inline-block;cursor: pointer}
+.list_focuss3 .hd3 ul li { width: 18px; height: 18px; cursor: pointer; font-size: 0; line-height: 0; background: url(point.png) no-repeat 0 0}
+.list_focuss3 .hd3 ul li.on { background: url(point_on.png) no-repeat 0 0}
+
+/*mod_askdigi*/
+.fr { float: right; display: inline}
+.mod_askdigi { position:relative; width: 280px}
+.mod_askdigi .hd h2 a { color: #666666}
+.mod_askdigi .hd h2 a:hover { color: #1686EB}
+.mod_askdigi .bd { border:1px solid #E6E6E6; padding:14px; width: 250px}
+.mod_askdigi .bd .item { line-height: 28px; position: relative}
+.mod_askdigi .bd .item b { font-family: SimSun}
+.mod_askdigi .bd .item a { line-height: 28px; font-size: 14px}
+.mod_askdigi .bd .item a:hover { text-decoration: none}
+.mod_askdigi .bd .item1 img { display: none}
+.mod_askdigi .ft { border: 1px solid #E6E6E6; border-top: none; padding: 15px 20px 15px 0}
+.mod_askdigi .ft h2 { color: #51ADED; line-height:34px; padding-right:20px; font-size: 14px}
+.mod_askdigi .ft .qrcode { width:38px; height:38px; background: url(bgs.png) no-repeat -120px -160px}
+.mod_askdigi .qr_tips { display: none; position: absolute; left: 0; bottom: 0; width: 278px; height: 154px; border: 1px solid #E6E6E6; background: #FFFFFF}
+.mod_askdigi:hover .qr_tips { display: block !important}
+.mod_askdigi .qr_tips .close { font-size:20px; font-weight:bold; position:absolute; right:10px; top: 10px}
+.mod_askdigi .qr_tips .close:hover { text-decoration: none}
+.mod_askdigi .qr_tips dl { padding: 12px 0 0 5px}
+.mod_askdigi .qr_tips dd { padding-left: 120px}
+.mod_askdigi .qr_tips h2 { font-size: 15px; margin: 5px 0 0 0}
+.mod_askdigi .qr_tips p { line-height:22px; font-size:12px; color: #666666}
+
+.double_read { width: 300px; margin: 0 0 5px 0; overflow: hidden}
+.double_read .item { float: left; width: 130px; height: 28px; line-height: 28px; margin: 0 20px 0 0; position: relative; overflow: hidden}
+.double_read .item b { font-family: SimSun}
+.double_read .item a { line-height: 28px; font-size: 13px}
+
+/* 精彩话题 */
+.plBox { float: left; width: 280px; padding: 10px 0; border-bottom: 1px dotted #DDDDDD}
+.plBox .plBlock {
+    width: 280px;
+    margin-left: 0;
+    float: left;
+}
+.plBox .plBlock p {
+    color: #747F8C;
+}
+.plBox .plBlock p {
+    color: #747F8C;
+}
+.plBox .plBgt {
+    width: 280px;
+    height: 15px;
+	margin: 5px 0 0 0;
+    background: url(box_bgT.png) no-repeat left top;
+    float: left;
+    overflow: hidden;
+}
+.plBox .plBgc {
+    color: #38485A;
+    width: 250px;
+    line-height: 24px;
+    background: url(box_bgC.png) repeat-y 0 0;
+    padding: 0 15px 5px 15px;
+    border-radius: 0;
+    float: left;
+}
+.plBox .plBgb {
+    width: 280px;
+    height: 5px;
+    background: url(box_bgB.png) no-repeat left top;
+    float: left;
+    overflow: hidden;
+}
+
+/* 门户首页图片轮播样式 */
+.index_photo { width: 1080px; overflow: hidden}
+.ie6 .index_photo, .ie7 .index_photo { position: relative}
+.index_photo .photo_ctrl { float: right; height: 25px; margin: 6px 1px 0 0; _margin: 3px 0 0 0}
+.index_photo .photo_ctrl a { float: left; width: 25px; height: 25px; text-indent: -9999px; margin-left: 2px; cursor: pointer; transition: all 0.3s ease 0s}
+.index_photo .photo_ctrl a.prev { background: url(car-pre.png) no-repeat center center #51ADED}
+.index_photo .photo_ctrl a.prev:hover { background: url(car-pre.png) no-repeat center center #333333}
+.index_photo .photo_ctrl a.next { background: url(car-next.png) no-repeat center center #51ADED}
+.index_photo .photo_ctrl a.next:hover { background: url(car-next.png) no-repeat center center #333333}
+.index_photo .bd li { float: left; width: 232px; margin: 0 24px 0 0; border-bottom: 3px solid #51ADED}
+.index_photo .bd .imgbox { position: relative; width: 232px; height: 180px; overflow: hidden; display: block}
+img.rotates { width: 100%; _width: 232px; display: block; transition: all 0.4s ease 0s; opacity: 1; filter: Alpha(opacity=100); margin: 0 auto}
+img.rotates:hover { transform: scale(1.2) rotate(5deg); opacity: 0.5; filter: Alpha(opacity=50)}
+.imglink { display: block; padding: 0; background: none repeat 0 0 #000000}
+.index_photo .bd .txt h3 { font-size: 16px;height: 22px;overflow: hidden;line-height: 22px;color: #333333;font-weight: 400;margin: 8px 0}
+span.author3 { padding-left: 22px; margin-right: 5px; background: url(author3.png) no-repeat left center}
+span.date3 { padding-left: 18px; background: url(time.png) no-repeat left center}
+.cover { height: 30px; line-height: 30px; color: #9C9C9C}
+.index_photo .bd .txt p { font-size: 13px; line-height: 22px; height: 44px; overflow: hidden; color: #555555; padding-bottom: 15px; margin-top: 5px; margin-bottom: 2px; border-bottom: 1px solid #51ADED}
+.fa { display: inline-block}
+.overlay_icon { color: #2F88D6;border-radius: 7%;text-align: center;line-height: 30px;width: 30px;height: 30px;opacity: 0;filter: Alpha(opacity=0);font-size: 20px;position: absolute;z-index: 2;top: 30%;left: 50%;margin-top: -10px;margin-left: -20px;cursor: pointer;text-decoration: none;font-weight: normal;font-style: normal;transition: all 0.3s ease 0s; background: url(view.png) no-repeat 0 0}
+.ie6 .overlay_icon { display: none}
+.imgbox:hover .overlay_icon { z-index: 999;top: 50%;opacity: 1; filter: Alpha(opacity=100); text-decoration: none;font-weight: normal;font-style: normal}
+
+
+/* 门户首页上榜栏目样式 */
+.rank-list ul { width: 300px; height: auto; margin: 0 0 15px 0}
+.rank-list li { float: left; width: 300px; height: 60px; padding: 15px 0; border-bottom: 1px dotted #DDDDDD; overflow: hidden}
+.rank-list li .pic { float: left; width: 65px; margin: 0 15px 0 0; border-bottom: 0 !important}
+.rank-list li .info { float: left; width: 200px; height: 60px; padding: 0; background: none}
+.rank-list li .info p { height: 22px; line-height: 22px; margin: 0 0 15px 0; overflow: hidden}
+.rank-list li .info p a { font-size: 14px; color: #444444; font-weight: 400}
+.rank-list li .info p a:hover { color: #51ADED}
+.rank-list li .info span { padding: 0 0 0 22px; color: #999999; background: url(date.png) no-repeat left 1px}
+.rank-list li .info em { padding: 0 0 0 22px; margin: 0 20px 0 0; color: #999999; background: url(author3.png) no-repeat left 1px}
+
+
+/*资讯排行*/
+.ranking ul { height: 333px; _margin-bottom: 9px}
+.ranking ul li { height: 29px; line-height: 29px; padding: 3px 0; border-bottom: 0}
+.ranking ul li em { padding: 0 12px 0 0; font-size: 16px; font-family: Georgia; color: #666666}
+.ranking ul li a { height: 28px; text-overflow: ellipsis; white-space: nowrap; font-size: 13px; overflow: hidden}
+.ranking ul li a:hover { text-decoration: none; color: #51ADED}
+.ranking ul li.top_1 em { color: #51ADED; font-family: Georgia; font-size: 18px}
+.ranking ul li.top_2 em { color: #51ADED; font-family: Georgia; font-size: 18px}
+.ranking ul li.top_3 em { color: #51ADED; font-family: Georgia; font-size: 18px}
+
+/* 精选图集 */
+.pic_list2 { width: 300px}
+.pic_list2 li { float: left;width: 280px;height: 30px;margin: 0 0 5px 0;position: relative;overflow: hidden}
+.pic_list2 li h3 { float: left; width: 210px; height: 23px; line-height: 23px; overflow: hidden}
+.pic_list2 li h3 a { color: #555555}
+.pic_list2 li span { float: left; width: 50px; padding: 2px 0; margin: 0 12px 0 0; color: #FFFFFF; text-align: center; background: #444444}
+
+.pic_list3 { width: 502px}
+.pic_list3 li { float: left;width: 250px;height: 150px;margin: 0 1px 0 0;position: relative;overflow: hidden}
+.pic_list3 li img { width: 250px; height: 150px}
+.pic_list3 li img:hover { opacity: 0.7}
+.pic_list3 span { _display: none; color: #EEEEEE;font-size: 14px;line-height: 22px;position: absolute;left: 0;bottom: 0;padding: 40px 10px 8px 10px;width: 230px; background: url(black3.png) no-repeat 0 0; _background: none}
+
+.indPictripList li {
+    float: left;
+	width: 235px;
+	height: 191px;
+    margin-left: 27px;
+    position: relative;
+    overflow: hidden;	
+}
+.indPictripList .box {
+    position: relative;
+    display: block;
+    color: #FFFFFF;
+}
+.indPictripList .topinfo {
+    position: absolute;
+    left: 7px;
+    right: 7px;
+    top: -55px;
+	transition: all 0.3s ease 0s;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+}
+.indPictripList li:hover .topinfo { top: 5px}
+.indPictripList .t {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+	font-weight: 400;
+	padding: 0;
+	margin: 0 0 5px 0;
+	color: #FFFFFF;
+	height: 20px;
+    line-height: 20px;
+}
+.indPictripList .num {
+    font-size: 32px;
+    line-height: 34px;
+}
+.indPictripList .btmmask {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 78px;
+    background: url(pictrip-btmmask.png) repeat-x scroll left bottom transparent;
+}
+.indPictripList .user {
+    position: absolute;
+    left: 8px;
+    bottom: 9px;
+}
+.indPictripList .user a {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 30px;
+}
+.indPictripList .user img {
+    vertical-align: middle;
+    border-radius: 50% !important;
+    margin-right: 5px;	
+}
+
+.ind_honortit {
+	margin: 20px 0 10px 0;
+	line-height: 16px
+}
+.ind_honortit .explain {
+	float:right;
+	color:#959595
+}
+.ind_honortit .titles {
+	font-size: 14px;
+	padding: 0 0 0 5px;
+	color: #636363;
+	line-height: 16px;
+	font-family: "Microsoft Yahei";
+	font-weight: 400 !important
+}
+.ind_honorlist { margin-left: -6px}
+.ind_honorlist li { float: left; margin-left: 8px}
+.ie6 .ind_honorlist li{ float: left; margin-left: 6px}
+.ind_honorlist li img{ display: block; border-radius: 50%}
+
+.ind_bbsplate {
+	margin: 0 0 0 -25px
+}
+.ind_bbsplate li {
+	float: left;
+	width: 175px;
+	height:48px;
+	padding-left:58px;
+	margin: 10px 0 10px 25px;
+	color:#959595
+}
+.ind_bbsplate li img {
+	width:48px;
+	height:48px;
+	display:block
+}
+.ie6 .ind_bbsplate li {
+	padding-left:58px;
+	margin-left:12px
+}
+.ind_bbsplate .pic {
+	float:left;
+	margin-left:-58px;
+	padding-top:3px
+}
+.ie6 .ind_bbsplate .pic {
+	float:left;
+	margin-left:-29px;
+	padding-top:3px
+}
+.ind_bbsplate .t {
+	font-weight:700;
+	padding:0 !important;
+	font-size:12px;
+	height:18px;
+	line-height:18px
+}
+.ind_bbsplate .t a { color: #555555}
+.ind_bbsplate .t a:hover { color: #51ADED}
+.ind_bbsplate .summarys {
+	height:18px;
+	line-height:18px;
+	overflow:hidden
+}
+
+
+.friendlink li { float: left; padding: 10px 20px 5px 1px}
+.friendlink li a { color: #777777}
+.friendlink li a:hover { color: #51ADED}
